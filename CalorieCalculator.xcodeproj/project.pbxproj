@@ -12,6 +12,8 @@
 		CB69A0CD217A52BC00A5A619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB69A0CB217A52BC00A5A619 /* Main.storyboard */; };
 		CB69A0CF217A52BE00A5A619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB69A0CE217A52BE00A5A619 /* Assets.xcassets */; };
 		CB69A0D2217A52BE00A5A619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB69A0D0217A52BE00A5A619 /* LaunchScreen.storyboard */; };
+		CBF223752182386F008ED7D8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF223742182386F008ED7D8 /* User.swift */; };
+		CBF2237721823A83008ED7D8 /* InputPersonalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF2237621823A83008ED7D8 /* InputPersonalInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CB69A0CE217A52BE00A5A619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB69A0D1217A52BE00A5A619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB69A0D3217A52BE00A5A619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF223742182386F008ED7D8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CBF2237621823A83008ED7D8 /* InputPersonalInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPersonalInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		CB69A0C6217A52BC00A5A619 /* CalorieCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				CB69A0CB217A52BC00A5A619 /* Main.storyboard */,
+				CBF223742182386F008ED7D8 /* User.swift */,
+				CBF2237621823A83008ED7D8 /* InputPersonalInfo.swift */,
 				CB69A0C7217A52BC00A5A619 /* AppDelegate.swift */,
 				CB69A0C9217A52BC00A5A619 /* ViewController.swift */,
-				CB69A0CB217A52BC00A5A619 /* Main.storyboard */,
 				CB69A0CE217A52BE00A5A619 /* Assets.xcassets */,
 				CB69A0D0217A52BE00A5A619 /* LaunchScreen.storyboard */,
 				CB69A0D3217A52BE00A5A619 /* Info.plist */,
@@ -137,6 +143,8 @@
 			files = (
 				CB69A0CA217A52BC00A5A619 /* ViewController.swift in Sources */,
 				CB69A0C8217A52BC00A5A619 /* AppDelegate.swift in Sources */,
+				CBF2237721823A83008ED7D8 /* InputPersonalInfo.swift in Sources */,
+				CBF223752182386F008ED7D8 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
